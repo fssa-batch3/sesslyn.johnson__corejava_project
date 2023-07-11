@@ -13,12 +13,12 @@ public class App {
          System.out.println(user.getId());
          System.out.println(user.getPassword());
          
-         Logger log = new Logger();
+        
          Logger.debug("Debug the code");
          Logger.debug(15);
-         log.error(20);
-         log.error("Compilation Error");
-         log.info("Practice sum");
-         log.info(10);
+         Logger.error(20);
+         Logger.error("Compilation Error");
+         Logger.info("Practice sum");
+         Logger.info(10);
 	} 
 }
