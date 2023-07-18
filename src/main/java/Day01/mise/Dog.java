@@ -47,7 +47,7 @@ public class Dog {
         System.out.println("Dog 2:");
         System.out.println("Has Dots: " + dog2.hasDots());
         System.out.println("Color: " + dog2.getColor());
-       dog1.speak();
+       dog2.speak();
     }
 }
 

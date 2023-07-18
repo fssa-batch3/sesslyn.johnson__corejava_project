@@ -1,7 +1,8 @@
 package Day02.solved;
 
 public class Person1 {
-	 private String name;  // Private data member
+	
+	    private String name;  // Private data member
 
 	    public String getName() {  // Public getter method
 	        return name;

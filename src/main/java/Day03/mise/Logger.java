@@ -10,7 +10,7 @@ public class Logger {
 	
 	public static void debug(String msg) {
 		LocalDateTime date = LocalDateTime.now();
-		System.out.println(date.toString().concat(": " +msg));
+		System.out.println(date.toString().concat(": " + msg));
 	}
 	
 	public static void main(String[] args) {

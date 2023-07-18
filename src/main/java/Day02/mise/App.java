@@ -14,7 +14,7 @@ public class App {
 		System.out.println(Student.count);
 
 		Student student2 = new Student();
-		student2.setName("Mathivana");
+		student2.setName("Mathivanan");
 		student2.setEmail("mathi@gmail.com");
 		student2.setId(0126);
 		System.out.println(Student.count);

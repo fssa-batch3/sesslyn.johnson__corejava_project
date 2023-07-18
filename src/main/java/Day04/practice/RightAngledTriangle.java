@@ -10,11 +10,11 @@ public class RightAngledTriangle extends Rectangle{
 		this.c = c;
 	}
 
-	@Override
+
 	public double calculateArea() {
 		  return (this.c * this.c) / 2.0;
-		}
-	@Override
+	}
+
 	public double calculatePerimeter() {
 		  double perimeter = super.calculatePerimeter();
 		  return perimeter + this.c;
