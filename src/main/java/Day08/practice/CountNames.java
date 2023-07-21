@@ -26,5 +26,6 @@ public class CountNames {
             int count = entry.getValue();
             System.out.println(name + ": " + count);
         }
+      
     }
 }
